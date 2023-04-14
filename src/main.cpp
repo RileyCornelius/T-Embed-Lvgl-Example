@@ -1,9 +1,12 @@
 #include <Arduino.h>
+#include "ui/lv_setup.h"
 
-void setup() {
-  // put your setup code here, to run once:
+void setup()
+{
+  lv_begin();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
+  lv_handler();
 }
